@@ -100,6 +100,7 @@ namespace TechJobsConsole
                 }
 
                 string input = Console.ReadLine();
+
                 choiceIdx = int.Parse(input);
 
                 if (choiceIdx < 0 || choiceIdx >= choiceKeys.Length)
@@ -118,7 +119,11 @@ namespace TechJobsConsole
 
         private static void PrintJobs(List<Dictionary<string, string>> someJobs)
         {
-            Console.WriteLine("printJobs is not implemented yet");
+            //foreach (KeyValuePair<string, string> row in someJobs)
+           // {
+           //     Console.WriteLine("\n***" + "" + "\n***");
+           // }
+            Console.WriteLine("\n***" + "Test" + "\n***");
         }
     }
 }
